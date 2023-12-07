@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML="Paragraph changed.";
+        }
+    </script>
+    <title>Triangle</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th><h1>Luas segitiga</h1></th>
+            <th><h1>Keliling segitiga</h1></th>
+        </tr>  
+        <tr>
+            <td><img src="https://cdn1.byjus.com/wp-content/uploads/2020/02/Perimeter-of-a-Isosceles-Equilateral-and-Scalene-Triangle-1.png" alt="Area of triangle picture" width="100%"/></td>
+            <td><img src="https://www.chilimath.com/wp-content/uploads/2021/11/formula-of-area-of-triangle.png" alt="Perimeter of triangle picture" width="70%"/></td>
+        </tr>
+        <tr>
+            <td><h2>Rumus luas segitiga yaitu:</h2></td> 
+            <td><h2>Rumus keliling segitiga yaitu:</h2></td>
+        </tr>
+        <tr>
+            <td><h3>L = 1/2 x b x h</h3></td>
+            <td><h3>K = A + B + C</h3></td>
+        </tr>
+        <tr>
+            <td><p>
+                Di mana:
+                L = Luas
+                b = Panjang alas
+                h = tinggi
+            </p></td>
+            <td><p>
+                Di mana:
+                K = Keliling
+                A = Sisi A
+                B = Sisi B
+                C = Sisi C
+            </p></td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <input type="text" id="a" placeholder="panjang alas">
+                    <input type="text" id="b" placeholder="tinggi">
+                </div>
+                <button onclick="cal()">Hitung</button>
+            </td>
+            <td>
+                <div>
+                    <input type="text" id="c" placeholder="sisi A">
+                    <input type="text" id="d" placeholder="sisi B">
+                    <input type="text" id="e" placeholder="sisi C">
+                </div>
+                <button onclick="cal()">Hitung</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
